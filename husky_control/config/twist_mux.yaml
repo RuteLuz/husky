@@ -1,6 +1,10 @@
 topics:
-- name    : joy
+- name    : joy_ocu
   topic   : joy_teleop/cmd_vel
+  timeout : 0.5
+  priority: 9
+- name    : joy
+  topic   : /interface_ocu/cmd_vel
   timeout : 0.5
   priority: 10
 - name    : interactive_marker

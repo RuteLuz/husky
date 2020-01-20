@@ -5,8 +5,8 @@ teleop_twist_joy:
   axis_angular: 0
   scale_angular: 0.6
   scale_angular_turbo: 2.5
-  enable_button: 5
-  enable_turbo_button: 7
+  enable_button: 5        # change this to the correct buttons of the joystick
+  enable_turbo_button: 7  # change this to the correct buttons of the joystick
 joy_node:
   deadzone: 0.1
   autorepeat_rate: 20
