@@ -38,12 +38,14 @@
     <rosparam command="load" file="$(find husky_control)/config/localization.yaml" />
   </node>
 
+  <!-- What is this node for?? -->
   <node pkg="interactive_marker_twist_server" type="marker_server" name="twist_marker_server" output="screen"/>
 
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
 
+  <!-- Modified to use the twist configuration necessary for the tia project using avatar and move_base -->
   <node pkg="twist_mux" type="twist_mux" name="twist_mux">
-    <rosparam command="load" file="$(find husky_control)/config/twist_mux.yaml" />
+    <rosparam command="load" file="$(find tia_interface)/ros/config/twist_mux.yaml" />
     <remap from="cmd_vel_out" to="husky_velocity_controller/cmd_vel"/>
   </node>
 
