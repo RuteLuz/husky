@@ -46,6 +46,9 @@ install dependecies:
 ==============
 
 rosdep install husky_bringup
+
 rosdep install husky_gazebo
+
 rosdep install husky_navigation
+
 rosdep install husky_viz
