@@ -42,13 +42,3 @@ Simulator ROS packages for the Clearpath Husky.
 For Husky instructions and tutorials, please see http://wiki.ros.org/Robots/Husky
 
 
-install dependecies:
-==============
-
-rosdep install husky_bringup
-
-rosdep install husky_gazebo
-
-rosdep install husky_navigation
-
-rosdep install husky_viz
