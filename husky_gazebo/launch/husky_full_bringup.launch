@@ -6,7 +6,7 @@ Launch all necessary components to get interaction between husky and MEROP OCU
 
   <arg name="joy_dev" default="/dev/input/js0" />
   <!-- when using local pc to teleoperate -> local_teleop=true (when not necessary -> local_teleop=false) -->
-  <arg name="local_teleop" default="true" />
+  <arg name="local_teleop" default="false" />
   
 
   <!-- ********************** -->
