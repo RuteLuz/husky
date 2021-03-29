@@ -112,4 +112,6 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 
   </group>
 
+  <include file="$(find husky_gazebo)/launch/hector_imu_to_tf.launch"/>
+
 </launch>
