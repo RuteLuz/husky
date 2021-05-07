@@ -63,12 +63,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <horizontal_fov>${60.0*M_PI/180.0}</horizontal_fov>
           <image>
             <format>R8G8B8</format>
-            <width>1280</width>
-            <height>720</height>
+            <width>1480</width>
+            <height>1000</height>
           </image>
           <clip>
             <near>0.05</near>
-            <far>60.0</far>
+            <far>40.0</far>
           </clip>
         </camera>
         <plugin name="kinect_${prefix}_controller" filename="libgazebo_ros_openni_kinect.so">

@@ -7,11 +7,11 @@ NavfnROS:
 
 TrajectoryPlannerROS:
   # Robot Configuration Parameters
-  acc_lim_x: 2.5
+  acc_lim_x: 3.5
   acc_lim_theta:  3.2
 
-  max_vel_x: 1.0
-  min_vel_x: -1.0
+  max_vel_x: 2.5
+  min_vel_x: -2.5
 
   max_vel_theta: 1.0
   min_vel_theta: -1.0
@@ -53,18 +53,18 @@ TrajectoryPlannerROS:
 
 DWAPlannerROS:
   # Robot configuration parameters  
-  acc_lim_x: 2.5
+  acc_lim_x: 3.5
   acc_lim_y: 0
   acc_lim_th: 3.2
 
-  max_vel_x: 1.0
-  min_vel_x: -1.0
+  max_vel_x: 2.5
+  min_vel_x: -2.5
   max_vel_y: 0
   min_vel_y: 0
 
-  max_trans_vel: 1.0
+  max_trans_vel: 2.5
   min_trans_vel: 0.3
-  max_rot_vel: 1.5
+  max_rot_vel: 2.5
   min_rot_vel: 0.3
 
   # Goal Tolerance Parameters
