@@ -198,9 +198,22 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
           <child link="top_plate_rear_link"/>
           <origin xyz="-0.36633 0 0.00639" rpy="0 0 0"/>
         </joint>
+        <joint name="base_front_indicator" type="fixed">
+          <parent link="top_plate_front_link" />
+          <child link="base_front_indicator"/>
+          <origin xyz="0 0 0.04" rpy="0 0 0"/>
+        </joint>
+        
       </xacro:unless>
       <link name="top_plate_front_link"/>
       <link name="top_plate_rear_link"/>
+      <link name="base_front_indicator">
+        <visual>
+          <geometry>
+            <cylinder length="0.009" radius="0.03"/>
+          </geometry>
+        </visual>
+      </link>
     </xacro:if>
 
   </xacro:macro>
